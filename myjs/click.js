@@ -64,6 +64,7 @@ const CloudScroll = (event) => {
 if (document.addEventListener && !document.attachEvent) {
     document.addEventListener('mousewheel', CloudScroll);
     //FF绑定滚动事件 
+    document.addEventListener("touchmove", CloudScroll);
     document.addEventListener('DOMMouseScroll', CloudScroll);
 }
 //IE 
