@@ -1,0 +1,28 @@
+.page1 {
+    background-color: #eceef4;
+    width: 100%;
+    
+  }
+  .image {
+    flex-shrink: 0;
+    width: 26.75rem;
+    height: 10.31rem;
+  }
+  .image_2 {
+    flex-shrink: 0;
+    width: 26.75rem;
+    height: 20.03rem;
+  }
+  .image_3 {
+    flex-shrink: 0;
+    width: 26.75rem;
+    height: 27.80rem;
+  }
+  .myluck_cti{
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
