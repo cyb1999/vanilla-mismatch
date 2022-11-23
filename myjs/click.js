@@ -31,32 +31,32 @@ const CloudScroll = (event) => {
         tap.classList.add('animate__animated', 'animate__fadeOutDown');
         down_icon.classList.add('animate__animated', 'animate__fadeOutDown');
     }
-    if (scrollTop === 0) {
-        image.classList.remove('animate__animated', 'animate__fadeOutLeft');
-        image.classList.add('animate__animated', 'animate__fadeInLeft');
-        image_2.classList.remove('animate__animated', 'animate__fadeOutRight');
-        image_2.classList.add('animate__animated', 'animate__fadeInRight');
-        image_3.classList.remove('animate__animated', 'animate__fadeOutLeft');
-        image_3.classList.add('animate__animated', 'animate__fadeInLeft');
-        image_4.classList.remove('animate__animated', 'animate__fadeOutLeft');
-        image_4.classList.add('animate__animated', 'animate__fadeInLeft');
-        image_5.classList.remove('animate__animated', 'animate__fadeOutRight');
-        image_5.classList.add('animate__animated', 'animate__fadeInRight');
-        image_6.classList.remove('animate__animated', 'animate__fadeOutLeft');
-        image_6.classList.add('animate__animated', 'animate__fadeInLeft');
-        image_7.classList.remove('animate__animated', 'animate__fadeOutRight');
-        image_7.classList.add('animate__animated', 'animate__fadeInRight');
-        image_8.classList.remove('animate__animated', 'animate__fadeOutRight');
-        image_8.classList.add('animate__animated', 'animate__fadeInRight');
-        section_2.classList.remove('animate__animated', 'animate__fadeOutRight');
-        section_2.classList.add('animate__animated', 'animate__fadeInRight');
-        image_wrapper.classList.remove('animate__animated', 'animate__fadeOutRight');
-        image_wrapper.classList.add('animate__animated', 'animate__fadeInRight');
-        tap.classList.remove('animate__animated', 'animate__fadeOutDown');
-        tap.classList.add('animate__animated', 'animate__fadeInDown');
-        down_icon.classList.remove('animate__animated', 'animate__fadeOutDown');
-        down_icon.classList.add('animate__animated', 'animate__fadeInDown');
-    }
+    // if (scrollTop === 0) {
+    //     image.classList.remove('animate__animated', 'animate__fadeOutLeft');
+    //     image.classList.add('animate__animated', 'animate__fadeInLeft');
+    //     image_2.classList.remove('animate__animated', 'animate__fadeOutRight');
+    //     image_2.classList.add('animate__animated', 'animate__fadeInRight');
+    //     image_3.classList.remove('animate__animated', 'animate__fadeOutLeft');
+    //     image_3.classList.add('animate__animated', 'animate__fadeInLeft');
+    //     image_4.classList.remove('animate__animated', 'animate__fadeOutLeft');
+    //     image_4.classList.add('animate__animated', 'animate__fadeInLeft');
+    //     image_5.classList.remove('animate__animated', 'animate__fadeOutRight');
+    //     image_5.classList.add('animate__animated', 'animate__fadeInRight');
+    //     image_6.classList.remove('animate__animated', 'animate__fadeOutLeft');
+    //     image_6.classList.add('animate__animated', 'animate__fadeInLeft');
+    //     image_7.classList.remove('animate__animated', 'animate__fadeOutRight');
+    //     image_7.classList.add('animate__animated', 'animate__fadeInRight');
+    //     image_8.classList.remove('animate__animated', 'animate__fadeOutRight');
+    //     image_8.classList.add('animate__animated', 'animate__fadeInRight');
+    //     section_2.classList.remove('animate__animated', 'animate__fadeOutRight');
+    //     section_2.classList.add('animate__animated', 'animate__fadeInRight');
+    //     image_wrapper.classList.remove('animate__animated', 'animate__fadeOutRight');
+    //     image_wrapper.classList.add('animate__animated', 'animate__fadeInRight');
+    //     tap.classList.remove('animate__animated', 'animate__fadeOutDown');
+    //     tap.classList.add('animate__animated', 'animate__fadeInDown');
+    //     down_icon.classList.remove('animate__animated', 'animate__fadeOutDown');
+    //     down_icon.classList.add('animate__animated', 'animate__fadeInDown');
+    // }
 
 }
 
