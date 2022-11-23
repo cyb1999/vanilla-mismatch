@@ -62,19 +62,19 @@ const CloudScroll = (event) => {
 
 //IE之外的绑定事件方法 
 if (document.addEventListener && !document.attachEvent) {
+    var isMobile = 'ontouchstart' in document;
+    console.log(isMobile);
+    if (isMobile) {
+        document.addEventListener('touchstart', CloudScroll, true);
+        document.addEventListener("touchmove", CloudScroll, true);
+    }
     document.addEventListener('mousewheel', CloudScroll);
-    //FF绑定滚动事件 
-    document.addEventListener("touchmove", CloudScroll);
-    document.addEventListener('DOMMouseScroll', CloudScroll);
-}
-//IE 
-else if (document.attachEvent && !document.addEventListener) {
-    document.attachEvent('onmousewheel', CloudScroll);
-} else {
-    window.onmousewheel = CloudScroll;
+
 }
 
 
 const Jump = () => {
     window.location.href = "slotmachine.html";
 }
+
+

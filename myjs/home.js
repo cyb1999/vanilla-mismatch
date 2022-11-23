@@ -28,7 +28,8 @@ down_icon.classList.add('animate__animated', 'animate__fadeInDown');
 
 
 
-
+var isMobile = 'ontouchstart' in document;
+console.log(isMobile);
 
 
 
