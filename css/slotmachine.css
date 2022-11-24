@@ -2,6 +2,7 @@
     background-color: #eceef4;
     width: 100%;
     z-index: 99999;
+    height: 100vh;
   }
   .image {
     flex-shrink: 0;
@@ -13,16 +14,42 @@
     width: 26.75rem;
     height: 20.03rem;
   }
-  .image_3 {
-    flex-shrink: 0;
-    width: 26.75rem;
-    height: 27.80rem;
+.image_bottle {
+    width: 24.75rem;
+    height: 25.80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+
+
   }
   .myluck_cti{
     width: 100px;
-    height: 300px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
    
+  }
+  .image_bottombg{
+    position: absolute;
+    bottom: 0;
+  }
+  .bottom_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+  }
+  .image_role {
+    width: 9.81rem;
+    height: 9.81rem;
+    position: absolute;
+    z-index: 30000;
+    bottom: 0;
+    left:-30px;
+
+    
   }

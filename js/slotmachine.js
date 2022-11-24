@@ -70,3 +70,4 @@ setInterval(() => {
     playGame()
 }, 6000)
 console.log(myLucky)
+
