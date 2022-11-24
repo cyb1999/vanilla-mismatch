@@ -1,0 +1,160 @@
+.page {
+    background-color: #eceef4;
+    height: 57.88rem;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .image {
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    width: 27.44rem;
+    height: 43.31rem;
+    position: absolute;
+    left: -3.78rem;
+    top: -26.34rem;
+  }
+  .image_wrapper {
+    padding: 13.63rem 0 7.88rem;
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16685301262103445388.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 43.81rem;
+    position: absolute;
+    right: -21.91rem;
+    top: -13.66rem;
+  }
+  .image_3 {
+    width: 16.94rem;
+    height: 17.19rem;
+    position: absolute;
+    left: -5.44rem;
+    bottom: 15.44rem;
+  }
+  .image_4 {
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    width: 37.93rem;
+    height: 40.69rem;
+    position: absolute;
+    left: -11.19rem;
+    right: 0;
+    top: -2.59rem;
+  }
+  .image_5 {
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    width: 28.31rem;
+    height: 33rem;
+    position: absolute;
+    right: -3.7rem;
+    bottom: 4.19rem;
+    /* z-index: 2; */
+  }
+  .image_6 {
+    width: 29.38rem;
+    height: 29.63rem;
+    position: absolute;
+    left: -3.19rem;
+    right: 10.56rem;
+    top: 7.44rem;
+  }
+  .section_2 {
+    padding-top: 5rem;
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16685301262167868825.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* width: 21.81rem; */
+    height: 22rem;
+    position: absolute;
+    right: 11.59rem;
+    top: 31.5rem;
+    z-index: 1;
+  }
+  .image_7 {
+    width: 21.56rem;
+    height: 22.44rem;
+    position: absolute;
+    right: 0;
+    top: 4.19rem;
+  }
+  .image_8 {
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    width: 26rem;
+    height: 32.37rem;
+    position: absolute;
+    right: -7.03rem;
+    bottom: 8.72rem;
+  }
+  .image_wrapper_2 {
+    padding: 2.25rem 0 19.5rem;
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16685301266723610583.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 17.88rem;
+    position: absolute;
+    left: 1rem;
+    top: 25.25rem;
+  }
+  .text {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family: Arial-Black;
+    font-weight: 900;
+    line-height: 1.91rem;
+    position: absolute;
+    left: 9.53rem;
+    top: 24.06rem;
+  }
+  .image_2 {
+    margin-left: -0.38rem;
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    width: 22.31rem;
+    height: 28.75rem;
+  }
+  .section_3 {
+    margin-left: 0.56rem;
+    filter: drop-shadow(0px 0.19rem 0.19rem #00000029);
+    background-color: #00000000;
+    width: 21.84rem;
+    height: 22rem;
+  }
+  .image_9 {
+    width: 3.13rem;
+    transform: rotate(90deg);
+    margin-top: 70px;
+  }
+  .container{
+    height: 100vh;
+    position: relative;
+    z-index: 4;
+  }
+  .down_cti{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tap {
+    z-index: 1001;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Arial-Black;
+    font-weight: 900;
+    position: absolute;
+    top:0;
+  }
+  .down_icon{
+    position: absolute;
+   top: 0;
+  
+  }
+
+  
