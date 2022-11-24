@@ -9,7 +9,7 @@ const image_8 = document.querySelector('.image_8');
 const section_2 = document.querySelector('.section_2');
 const tap = document.querySelector('.tap');
 const down_icon = document.querySelector('.down_icon');
-
+const container = document.querySelector('.container');
 
 const image_wrapper = document.querySelector('.image_wrapper');
 image.classList.add('animate__animated', 'animate__fadeInLeft');
@@ -28,8 +28,7 @@ down_icon.classList.add('animate__animated', 'animate__fadeInDown');
 
 
 
-var isMobile = 'ontouchstart' in document;
-console.log(isMobile);
+
 
 
 

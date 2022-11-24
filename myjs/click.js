@@ -58,6 +58,16 @@ const CloudScroll = (event) => {
     //     down_icon.classList.add('animate__animated', 'animate__fadeInDown');
     // }
 
+    //删除dom元素
+    if (scrollTop > 600) {
+        container.remove()
+        image_wrapper.remove();
+        tap.remove();
+        down_icon.remove();
+
+
+    }
+
 }
 
 //IE之外的绑定事件方法 
@@ -65,7 +75,6 @@ if (document.addEventListener && !document.attachEvent) {
     var isMobile = 'ontouchstart' in document;
     console.log(isMobile);
     if (isMobile) {
-        document.addEventListener('touchstart', CloudScroll, true);
         document.addEventListener("touchmove", CloudScroll, true);
     }
     document.addEventListener('mousewheel', CloudScroll);

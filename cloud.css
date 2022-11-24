@@ -156,3 +156,108 @@
    top: 0;
   
   }
+
+  .page1 {
+    padding: 4.19rem 0 24.5rem;
+    background-color: #eceef4;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    z-index: 20000;
+  }
+  .group_2 {
+
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 2.94rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .space-y-8 > *:not(:first-child) {
+    margin-top: 0.5rem;
+  }
+  .text_2 {
+    align-self: center;
+    color: #fd9160;
+    font-size: 1.56rem;
+    font-family: Arial-Black;
+    font-weight: 900;
+    line-height: 1.19rem;
+  }
+  .equal-division-item {
+    margin-top: 0.38rem;
+    flex: 1 1 5.25rem;
+    width: 5.19rem;
+    height: 6.25rem;
+  }
+  .text_3 {
+    margin-top: 5.88rem;
+    align-self: center;
+    color: #6e6767;
+    font-size: 1.75rem;
+    font-family: DNPShueiMGoStd-B;
+    line-height: 1.63rem;
+  }
+  .font_1 {
+    font-size: 1.25rem;
+    font-family: DNPShueiMGoStd-L;
+    line-height: 1.5rem;
+    color: #6e6767;
+  }
+  .text_4 {
+    margin-top: 4.38rem;
+    align-self: center;
+  }
+  .text_5 {
+    margin-top: 2.31rem;
+    align-self: center;
+  }
+  .text_6 {
+    margin-top: 2.31rem;
+    align-self: center;
+  }
+  .text_7 {
+    margin-top: 2.31rem;
+    align-self: center;
+  }
+  .group_3 {
+    margin-top: 2.31rem;
+    padding-left: 4.69rem;
+    padding-right: 4.56rem;
+  }
+  .space-y-11 > *:not(:first-child) {
+    margin-top: 0.69rem;
+  }
+  .text_8 {
+    margin-left: 1.81rem;
+  }
+  .group_4 {
+    padding: 1.63rem 0 13.75rem;
+    position: relative;
+  }
+  .section_3 {
+    background-color: #00000000;
+    width: 9.69rem;
+    height: 16.88rem;
+    position: absolute;
+    right: 3.19rem;
+    top: 0;
+  }
+  .group_5 {
+    margin-top: 22.81rem;
+  }
+  .space-y-26 > *:not(:first-child) {
+    margin-top: 1.63rem;
+  }
+  .font_2 {
+    font-size: 1.25rem;
+    font-family: DNPShueiMGoStd-L;
+    line-height: 1.5rem;
+    color: #707070;
+  }
+  .text_10 {
+    text-transform: uppercase;
+  }
