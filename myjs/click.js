@@ -59,14 +59,12 @@ const CloudScroll = (event) => {
     // }
 
     //删除dom元素
-    if (scrollTop > 600) {
-        container.remove()
-        image_wrapper.remove();
-        tap.remove();
-        down_icon.remove();
-
-
-    }
+    // if (scrollTop > 600) {
+    //     container.remove()
+    //     image_wrapper.remove();
+    //     tap.remove();
+    //     down_icon.remove();
+    // }
 
 }
 
@@ -76,6 +74,7 @@ if (document.addEventListener && !document.attachEvent) {
     console.log(isMobile);
     if (isMobile) {
         document.addEventListener("touchmove", CloudScroll, true);
+        document.addEventListener("touchstart", CloudScroll, true);
     }
     document.addEventListener('mousewheel', CloudScroll);
 
