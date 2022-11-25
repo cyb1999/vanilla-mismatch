@@ -1,0 +1,177 @@
+
+.menu_group{
+    margin-top: -100px;
+    position: relative;
+    position:fixed;
+    right: -240px;
+    transition: right 0.5s ease-in-out;
+    -moz-transition:right 0.5s ease-in-out;; /* Firefox 4 */
+    -webkit-transition: right 0.5s ease-in-out;; /* Safari 和 Chrome */
+    -o-transition:right 0.5s ease-in-out;; /* Opera */
+  }
+  .menu_space-y-72 > *:not(:first-child) {
+    margin-top:40px;
+  }
+  .menu_section_2 {
+    padding: 20px 0 15px;
+    background-color: #e6e8ee;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 10px 15px 15px #00000029, 1px 1px 1px #ffffff inset;
+    width: 234px;
+  }
+  .menu_space-y-11 > *:not(:first-child) {
+    margin-top: 11px;
+  }
+  .menu_font_1 {
+    font-size: 30px;
+    font-family: DNPShueiMGoStd-B;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    color: #81a1f5;
+  }
+  .menu_text {
+    line-height: 21.5px;
+  }
+  .menu_font_2 {
+    font-size: 12px;
+    font-family: DNPShueiMGoStd-B;
+    line-height: 11px;
+    color: #81a1f5;
+  }
+  .menu_section_3 {
+    padding: 18px 0 12px;
+    background-color: #e6e8ee;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 10px 15px 15px #00000029, 1px 1px 1px #ffffff inset;
+    width: 233px;
+  }
+  .menu_text_3 {
+    line-height: 23px;
+  }
+  .menu_section_4 {
+    padding: 18px 0 13px;
+    background-color: #e6e8ee;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 10px 15px 15px #00000029, 1px 1px 1px #ffffff inset;
+    width: 230.5px;
+  }
+  .menu_space-y-14 > *:not(:first-child) {
+    margin-top: 14px;
+  }
+  .menu_section_5 {
+    padding: 20px 0 17px;
+    background-color: #e6e8ee;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 10px 15px 15px #00000029, 1px 1px 1px #ffffff inset;
+    width: 229.5px;
+  }
+  .menu_space-y-8 > *:not(:first-child) {
+    margin-top: 8px;
+  }
+  .menu_font_3 {
+    font-size: 30px;
+    font-family: DNPShueiMGoStd-B;
+    line-height: 22px;
+    color: #81a1f5;
+  }
+  .menu_section_6 {
+    padding: 18px 0 14px;
+    background-color: #e6e8ee;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 10px 15px 15px #00000029, 1px 1px 1px #ffffff inset;
+    width: 228px;
+  }
+  .menu_space-y-12 > *:not(:first-child) {
+    margin-top: 12px;
+  }
+  .menu_text_9 {
+    line-height: 23px;
+  }
+  .menu_image_wrapper {
+    padding: 40px 0 29px;
+    background-color: #e6e8ee;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 10px 15px 15px #00000029, 1px 1px 1px #ffffff inset;
+    width: 310px;
+    position: fixed;
+    right: -240px;
+    top: 42px;
+    z-index: 3001;
+    transition: right 0.5s ease-in-out;
+    -moz-transition:right 0.5s ease-in-out;; /* Firefox 4 */
+    -webkit-transition: right 0.5s ease-in-out;; /* Safari 和 Chrome */
+    -o-transition:right 0.5s ease-in-out;; /* Opera */
+  
+  }
+  .menu_image_nav {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top:22px;
+    left: 20px;
+  cursor: pointer;
+    
+  }
+  .menu_header{
+    background-color: #e6e8ee;
+    position: fixed;
+    top: 110px;
+    right: -300px;
+    z-index: 3000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: right 0.5s ease-in-out;
+    -moz-transition:right 0.5s ease-in-out;; /* Firefox 4 */
+    -webkit-transition: right 0.5s ease-in-out;; /* Safari 和 Chrome */
+    -o-transition:right 0.5s ease-in-out;; /* Opera */
+  
+  }
+
+  .open_group{
+    margin-top: -100px;
+    position: relative;
+    position:fixed;
+    right: 0;
+    transition: right 0.5s ease-in-out;
+    -moz-transition:right 0.5s ease-in-out;; /* Firefox 4 */
+    -webkit-transition: right 0.5s ease-in-out;; /* Safari 和 Chrome */
+    -o-transition:right 0.5s ease-in-out;; /* Opera */
+  }
+  .open_header{
+    background-color: #e6e8ee;
+    position: fixed;
+    top: 110px;
+    right: 0;
+    z-index: 8888;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: right 0.5s ease-in-out;
+    -moz-transition:right 0.5s ease-in-out;; /* Firefox 4 */
+    -webkit-transition: right 0.5s ease-in-out;; /* Safari 和 Chrome */
+    -o-transition:right 0.5s ease-in-out;; /* Opera */
+
+  }
+ .open_image_wrapper{
+  padding: 40px 0 29px;
+  background-color: #e6e8ee;
+  border-radius: 30px 0 0 30px;
+  box-shadow: 10px 15px 15px #00000029, 1px 1px 1px #ffffff inset;
+  width: 310px;
+  position: fixed;
+  right: 0px;
+  top: 42px;
+  z-index: 9999;
+  transition: right 0.5s ease-in-out;
+  -moz-transition:right 0.5s ease-in-out;; /* Firefox 4 */
+  -webkit-transition: right 0.5s ease-in-out;; /* Safari 和 Chrome */
+  -o-transition:right 0.5s ease-in-out;; /* Opera */
+ }
+  

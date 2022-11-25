@@ -3,13 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,viewport-fit=cover" />
     <title>Document</title>
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/slotmachine.css" />
+    <link rel="stylesheet" href="../common/menu.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   </head>
   <body>
+    <div id="NavSwitch_Wrapper" class="mis-flex-col mis-items-center menu_image_wrapper">
+      <img onclick="Menu()" class="menu_image_nav" src="../assets/Image/hamburger.png" />
+    </div>
+    <div id="NavSwitch_Header" class="menu_header">
+      <div id="NavSwitch_Group" class="mis-flex-col mis-items-end menu_group menu_space-y-72">
+        <div class="mis-flex-col mis-items-center menu_section_2 menu_space-y-11">
+          <span class="menu_font_1 menu_text">Mix</span>
+          <span class="menu_font_2">合成</span>
+        </div>
+        <div class="mis-flex-col mis-items-center menu_section_3 menu_space-y-14">
+          <span class="menu_font_1 menu_text_3">About</span>
+          <span class="menu_font_2">活動概要</span>
+        </div>
+        <div class="mis-flex-col mis-items-center menu_section_4 menu_space-y-14">
+          <span class="menu_font_1">List</span>
+          <span class="menu_font_2">実験結果一覧</span>
+        </div>
+        <div class="mis-flex-col mis-items-center menu_section_5 menu_space-y-8">
+          <span class="menu_font_3">NEWS</span>
+          <span class="menu_font_2">お知らせ</span>
+        </div>
+        <div class="mis-flex-col mis-items-center menu_section_6 menu_space-y-12">
+          <span class="menu_font_3 menu_text_9">Members</span>
+          <span class="menu_font_2">メンバー紹介</span>
+        </div>
+      </div>
+    </div>
     <div class="mis-flex-col mis-items-center page1">
       <img class="image" src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/9113ead35e2f26e82805c05544f53094.png" />
       <div class="myluck_cti">
@@ -25,5 +53,6 @@
     <script src="../js/animate/mylucky.js"></script>
     <script src="../js/animate/SlotAnimate.js"></script>
     <script src="../js/slotmachine.js"></script>
+    <script src="../common/menu.js"></script>
   </body>
 </html>
