@@ -10,8 +10,8 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
     }],
     slots: [
 
-        { order: [0, 3, 2, 4, 6, 7, 1, 5], direction: -1 },
-        { order: [5, 1, 2, 3, 4, 0, 6, 7], speed: 20 },
+        { order: [0, 1, 2, 3, 4, 5, 6, 7,], direction: -1 },
+        { order: [7, 6, 5, 4, 3, 2, 1, 0], speed: 20 },
 
 
 
