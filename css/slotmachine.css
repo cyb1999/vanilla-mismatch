@@ -57,7 +57,7 @@
     z-index: 3;
     position: absolute;
     top: -40px;
-    margin-left:8px ;
+    margin-left:-3px ;
   }
   .mix_text{
     align-self: flex-end;

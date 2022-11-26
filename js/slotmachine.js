@@ -101,60 +101,63 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
     }
 
 })
-
+var touchState = true
 const playGame = () => {
-    myLucky.play()
+    if (touchState) {
+        myLucky.play()
+    }
+
 }
 playGame()
 
 const stopGame = () => {
-    const synthetic_text = document.querySelector('.synthetic_text')
-    const res = [
-        [0, 1],
-        [2, 3],
-        [4, 5],
-        [6, 7],
+    if (touchState) {
+        touchState = false
+        const synthetic_text = document.querySelector('.synthetic_text')
+        const res = [
+            [0, 1],
+            [2, 3],
+            [4, 5],
+            [6, 7],
+        ]
+        // 随机取一组数据
+        const group = res[Math.random() * 4 >> 0]
+        // 调用 stop 方法停止游戏
+        myLucky.stop(group)
+        console.log(group)
+        group.forEach((item) => {
+            if (item == 0) {
+                synthetic_text.innerHTML = 'マッチするかな?'
+                setTimeout(() => {
+                    window.location.href = '/view/banana.html'
+                }, 4500)
+                window.removeEventListener("click", stopGame, false);
+            }
+            if (item == 2) {
+                synthetic_text.innerHTML = 'マッチするかな?'
+                setTimeout(() => {
+                    window.location.href = '/view/chicken.html'
+                }, 4500)
+                window.removeEventListener("click", stopGame, false);
 
-    ]
-    // 随机取一组数据
+            }
+            if (item == 4) {
+                synthetic_text.innerHTML = 'マッチするかな?'
+                setTimeout(() => {
+                    window.location.href = '/view/pineapple.html'
+                }, 4500)
+                window.removeEventListener("click", stopGame, false);
+            }
+            if (item == 6) {
+                synthetic_text.innerHTML = 'マッチするかな?'
+                setTimeout(() => {
+                    window.location.href = '/view/miso.html'
+                }, 4500)
+                window.removeEventListener("click", stopGame, false);
+            }
+        })
+    }
 
-    const group = res[Math.random() * 4 >> 0]
-
-
-    // 调用 stop 方法停止游戏
-    myLucky.stop(group)
-    console.log(group)
-    group.forEach((item) => {
-        if (item == 0) {
-            synthetic_text.innerHTML = 'マッチするかな?'
-            setTimeout(() => {
-                window.location.href = '/view/banana.html'
-            }, 4500)
-            window.removeEventListener("click", stopGame, false);
-        }
-        if (item == 2) {
-            synthetic_text.innerHTML = 'マッチするかな?'
-            setTimeout(() => {
-                window.location.href = '/view/chicken.html'
-            }, 4500)
-            window.removeEventListener("click", stopGame, false);
-
-        }
-        if (item == 4) {
-            synthetic_text.innerHTML = 'マッチするかな?'
-            setTimeout(() => {
-                window.location.href = '/view/pineapple.html'
-            }, 4500)
-            window.removeEventListener("click", stopGame, false);
-        }
-        if (item == 6) {
-            synthetic_text.innerHTML = 'マッチするかな?'
-            setTimeout(() => {
-                window.location.href = '/view/miso.html'
-            }, 4500)
-            window.removeEventListener("click", stopGame, false);
-        }
-    })
 
 
 }
