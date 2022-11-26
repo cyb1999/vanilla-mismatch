@@ -77,17 +77,19 @@ const stopGame = () => {
         if (item == 0) {
             setTimeout(() => {
                 synthetic_text.innerHTML = '香蕉和蛋黄酱'
+                window.location.href = '/view/banna.html'
 
             }, 4000)
         }
         if (item == 2) {
             setTimeout(() => {
                 synthetic_text.innerHTML = '鸡排和冰淇淋'
+                window.location.href = '/view/chicken.html'
+
             }, 4000)
         }
     })
-    // console.log(index)
-    // console.log(index[0] === 'banner')
+
     // if (index[0] === 'banner') {
     //     console.log('恭喜你中奖了')
     // }
