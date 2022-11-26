@@ -56,25 +56,25 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
 
             }]
         },
-        // {
-        //     id: 4,
-        //     imgs: [{
-        //         tips: 'pineapple',
-        //         width: '100%',
-        //         top: '10%',
-        //         src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/a0b7d7c3663c69548cb4653284b1dc55.png"
-        //     }]
-        // },
-        // {
-        //     id: 5,
-        //     imgs: [{
-        //         tips: 'prunes',
-        //         width: '100%',
-        //         top: '10%',
-        //         src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/1b30a030d3d9289d6a93e9d1fd83e2f0.png"
+        {
+            id: 4,
+            imgs: [{
+                tips: 'pineapple',
+                width: '100%',
+                top: '10%',
+                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/a0b7d7c3663c69548cb4653284b1dc55.png"
+            }]
+        },
+        {
+            id: 5,
+            imgs: [{
+                tips: 'prunes',
+                width: '100%',
+                top: '10%',
+                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/1b30a030d3d9289d6a93e9d1fd83e2f0.png"
 
-        //     }]
-        // },
+            }]
+        },
         // {
         //     id: 6,
         //     imgs: [{
@@ -113,7 +113,7 @@ const stopGame = () => {
     const res = [
         [0, 1],
         [2, 3],
-        // [4, 5],
+        [4, 5],
         // [6, 7],
 
     ]
@@ -141,13 +141,13 @@ const stopGame = () => {
             window.removeEventListener("click", stopGame, false);
 
         }
-        // if (item == 4) {
-        //     synthetic_text.innerHTML = 'マッチするかな?'
-        //     setTimeout(() => {
-        //         window.location.href = '/view/pineapple.html'
-        //     }, 4500)
-        //     window.removeEventListener("click", stopGame, false);
-        // }
+        if (item == 4) {
+            synthetic_text.innerHTML = 'マッチするかな?'
+            setTimeout(() => {
+                window.location.href = '/view/pineapple.html'
+            }, 4500)
+            window.removeEventListener("click", stopGame, false);
+        }
         // if (item == 6) {
         //     synthetic_text.innerHTML = 'マッチするかな?'
         //     setTimeout(() => {
