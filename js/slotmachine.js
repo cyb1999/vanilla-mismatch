@@ -61,7 +61,7 @@ const playGame = () => {
     myLucky.play()
 }
 playGame()
-console.log(myLucky)
+
 const stopGame = () => {
     const synthetic_text = document.querySelector('.synthetic_text')
     const res = [

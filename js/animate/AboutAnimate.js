@@ -39,7 +39,6 @@ window.addEventListener('scroll', function () {
     if (offsetTop < 580 || offsetTop < 500) {
         top2_text_4.classList.add('animate__animated', 'animate__fadeInLeft');
         top2_text_5.classList.add('animate__animated', 'animate__fadeInLeft');
-
     }
     if (offsetTop < 450) {
         top2_image_5.classList.add('animate__animated', 'animate__fadeInLeft');

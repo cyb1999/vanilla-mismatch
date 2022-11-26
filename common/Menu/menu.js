@@ -1,3 +1,6 @@
+
+const menu_image_wrapper = document.querySelector('.menu_image_wrapper')
+menu_image_wrapper.classList.add('animate__animated', 'animate__fadeInRight');
 //Menu开关事件
 const Menu = () => {
     const NavSwitch_Header = document.getElementById('NavSwitch_Header')
@@ -21,4 +24,10 @@ const Menu = () => {
 
 
 
+}
+const JumpMix = () => {
+    window.location.href = "slotmachine.html"
+}
+const JumpAbout = () => {
+    window.location.href = "about.html"
 }
