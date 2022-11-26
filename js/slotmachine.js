@@ -90,7 +90,7 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
                 tips: 'yogurt',
                 width: '85%',
                 top: '15%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/c889f68062c6aee24c21421cf0c0ed3d.png"
+                src: "https://vanilla-mismatch.vercel.app/assets/Image/yogurt.png"
             }]
         },
 
