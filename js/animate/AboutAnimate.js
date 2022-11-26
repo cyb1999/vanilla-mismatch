@@ -27,16 +27,12 @@ const top2_text_5 = document.querySelector('.top2_text_5');
 
 const top2_sectionId = document.getElementById('top2_section_3');
 
-
-
-
 window.addEventListener('scroll', function () {
     const offset = top2_sectionId.getBoundingClientRect()
     const offsetTop = offset.top;
     const offsetBottom = offset.bottom;
-
     const offsetHeight = offset.height;
-    console.log(offsetTop, offsetBottom, offsetHeight)
+    // console.log(offsetTop, offsetBottom, offsetHeight)
     if (offsetTop < 950 || offsetTop < 900) {
         top2_section_3.classList.add('animate__animated', 'animate__fadeInLeft');
     }
