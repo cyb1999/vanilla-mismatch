@@ -90,7 +90,7 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
                 tips: 'yogurt',
                 width: '85%',
                 top: '15%',
-                src: "../assets/Image/yogurt.png"
+                src: "/assets/Image/yogurt.png"
             }]
         },
 
