@@ -75,18 +75,19 @@ const stopGame = () => {
     myLucky.stop(index)
     index.forEach((item, index) => {
         if (item == 0) {
+            synthetic_text.innerHTML = 'マッチするかな?'
             setTimeout(() => {
-                synthetic_text.innerHTML = '香蕉和蛋黄酱'
-                window.location.href = '/view/banna.html'
-
+                window.location.href = '/view/banana.html'
             }, 4000)
+            window.removeEventListener("click", stopGame, false);
         }
         if (item == 2) {
+            synthetic_text.innerHTML = 'マッチするかな?'
             setTimeout(() => {
-                synthetic_text.innerHTML = '鸡排和冰淇淋'
                 window.location.href = '/view/chicken.html'
-
             }, 4000)
+            window.removeEventListener("click", stopGame, false);
+
         }
     })
 
