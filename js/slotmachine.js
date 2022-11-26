@@ -10,8 +10,11 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
     }],
     slots: [
 
-        { order: [0, 1, 2, 3, 4, 5, 6, 7,], direction: -1 },
-        { order: [6, 7, 5, 4, 3, 2, 1, 0], speed: 20 },
+        // { order: [0, 1, 2, 3, 4, 5, 6, 7], direction: -1 },
+        // { order: [6, 7, 5, 4, 3, 2, 1, 0], speed: 20 },
+
+        { order: [0, 1, 2, 3], direction: -1, speed: 20 },
+        { order: [2, 1, 3, 0], speed: 20 },
 
     ],
     prizes: [
@@ -53,43 +56,43 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
 
             }]
         },
-        {
-            id: 4,
-            imgs: [{
-                tips: 'pineapple',
-                width: '100%',
-                top: '10%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/a0b7d7c3663c69548cb4653284b1dc55.png"
-            }]
-        },
-        {
-            id: 5,
-            imgs: [{
-                tips: 'prunes',
-                width: '100%',
-                top: '10%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/1b30a030d3d9289d6a93e9d1fd83e2f0.png"
+        // {
+        //     id: 4,
+        //     imgs: [{
+        //         tips: 'pineapple',
+        //         width: '100%',
+        //         top: '10%',
+        //         src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/a0b7d7c3663c69548cb4653284b1dc55.png"
+        //     }]
+        // },
+        // {
+        //     id: 5,
+        //     imgs: [{
+        //         tips: 'prunes',
+        //         width: '100%',
+        //         top: '10%',
+        //         src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/1b30a030d3d9289d6a93e9d1fd83e2f0.png"
 
-            }]
-        },
-        {
-            id: 6,
-            imgs: [{
-                tips: 'miso',
-                width: '100%',
-                top: '20%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/c889f68062c6aee24c21421cf0c0ed3d.png"
-            }]
-        },
-        {
-            id: 7,
-            imgs: [{
-                tips: 'yogurt',
-                width: '85%',
-                top: '15%',
-                src: "https://vanilla-mismatch.vercel.app/assets/Image/yogurt.png"
-            }]
-        },
+        //     }]
+        // },
+        // {
+        //     id: 6,
+        //     imgs: [{
+        //         tips: 'miso',
+        //         width: '100%',
+        //         top: '20%',
+        //         src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/c889f68062c6aee24c21421cf0c0ed3d.png"
+        //     }]
+        // },
+        // {
+        //     id: 7,
+        //     imgs: [{
+        //         tips: 'yogurt',
+        //         width: '85%',
+        //         top: '15%',
+        //         src: "https://vanilla-mismatch.vercel.app/assets/Image/yogurt.png"
+        //     }]
+        // },
 
 
     ],
@@ -110,13 +113,13 @@ const stopGame = () => {
     const res = [
         [0, 1],
         [2, 3],
-        [4, 5],
-        [6, 7],
+        // [4, 5],
+        // [6, 7],
 
     ]
     // 随机取一组数据
 
-    const group = res[Math.random() * 4 >> 0]
+    const group = res[Math.random() * 2 >> 0]
 
 
     // 调用 stop 方法停止游戏
@@ -138,20 +141,20 @@ const stopGame = () => {
             window.removeEventListener("click", stopGame, false);
 
         }
-        if (item == 4) {
-            synthetic_text.innerHTML = 'マッチするかな?'
-            setTimeout(() => {
-                window.location.href = '/view/pineapple.html'
-            }, 4500)
-            window.removeEventListener("click", stopGame, false);
-        }
-        if (item == 6) {
-            synthetic_text.innerHTML = 'マッチするかな?'
-            setTimeout(() => {
-                window.location.href = '/view/miso.html'
-            }, 4500)
-            window.removeEventListener("click", stopGame, false);
-        }
+        // if (item == 4) {
+        //     synthetic_text.innerHTML = 'マッチするかな?'
+        //     setTimeout(() => {
+        //         window.location.href = '/view/pineapple.html'
+        //     }, 4500)
+        //     window.removeEventListener("click", stopGame, false);
+        // }
+        // if (item == 6) {
+        //     synthetic_text.innerHTML = 'マッチするかな?'
+        //     setTimeout(() => {
+        //         window.location.href = '/view/miso.html'
+        //     }, 4500)
+        //     window.removeEventListener("click", stopGame, false);
+        // }
     })
 
 
