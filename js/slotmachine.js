@@ -1,4 +1,7 @@
-const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
+const myLucky = new LuckyCanvas.SlotMachine({
+    divElement: document.querySelector('#my-lucky'),
+    dpr: 1 // 这里会使用传入的dpr
+}, {
     width: '400px',
     height: '170px',
     blocks: [{
@@ -103,6 +106,7 @@ const myLucky = new LuckyCanvas.SlotMachine('#my-lucky', {
 })
 var touchState = true
 const playGame = () => {
+    console.log(myLucky)
     if (touchState) {
         myLucky.play()
     }
