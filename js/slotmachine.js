@@ -92,7 +92,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'yogurt',
                 width: '85%',
                 top: '15%',
-                src: "https://vanilla-mismatch.vercel.app/assets/Image/yogurt.png"
+                src: "https://mismatch.bynay.cn/assets/Image/yogurt.png"
             }]
         },
 
@@ -101,12 +101,10 @@ const myLucky = new LuckyCanvas.SlotMachine({
     defaultConfig: {
         rowSpacing: '30px',
         colSpacing: '80px'
-    }
-
+    },
 })
 var touchState = true
 const playGame = () => {
-    console.log(myLucky)
     if (touchState) {
         myLucky.play()
     }
@@ -128,41 +126,35 @@ const stopGame = () => {
         const group = res[Math.random() * 4 >> 0]
         // 调用 stop 方法停止游戏
         myLucky.stop(group)
-        console.log(group)
-        group.forEach((item) => {
-            if (item == 0) {
-                synthetic_text.innerHTML = 'マッチするかな?'
+        synthetic_text.innerHTML = 'マッチするかな?'
+        setInterval(() => {
+            if (myLucky.step === 0) {
                 setTimeout(() => {
-                    window.location.href = '/view/banana.html'
-                }, 4500)
-                window.removeEventListener("click", stopGame, false);
-            }
-            if (item == 2) {
-                synthetic_text.innerHTML = 'マッチするかな?'
-                setTimeout(() => {
-                    window.location.href = '/view/chicken.html'
-                }, 4500)
-                window.removeEventListener("click", stopGame, false);
+                    group.forEach((item) => {
+                        if (item == 0) {
+                            window.location.href = '/view/banana.html'
+                            window.removeEventListener("click", stopGame, false);
+                        }
+                        if (item == 2) {
+                            window.location.href = '/view/chicken.html'
+                            window.removeEventListener("click", stopGame, false);
 
+                        }
+                        if (item == 4) {
+                            window.location.href = '/view/pineapple.html'
+                            window.removeEventListener("click", stopGame, false);
+                        }
+                        if (item == 6) {
+                            window.location.href = '/view/miso.html'
+                            window.removeEventListener("click", stopGame, false);
+                        }
+                    })
+                }, 1000)
             }
-            if (item == 4) {
-                synthetic_text.innerHTML = 'マッチするかな?'
-                setTimeout(() => {
-                    window.location.href = '/view/pineapple.html'
-                }, 4500)
-                window.removeEventListener("click", stopGame, false);
-            }
-            if (item == 6) {
-                synthetic_text.innerHTML = 'マッチするかな?'
-                setTimeout(() => {
-                    window.location.href = '/view/miso.html'
-                }, 4500)
-                window.removeEventListener("click", stopGame, false);
-            }
-        })
+        }, 200)
     }
 
 
-
 }
+
 
