@@ -1,6 +1,6 @@
 const myLucky = new LuckyCanvas.SlotMachine({
     divElement: document.querySelector('#my-lucky'),
-    dpr: 3// 这里会使用传入的dpr
+    dpr: 2// 这里会使用传入的dpr
 }, {
     width: '400px',
     height: '170px',
