@@ -155,7 +155,7 @@ const stopGame = () => {
                             clearInterval(timer)
                         }
                     })
-                }, 1000)
+                }, 500)
             }
         }, 1000)
     }
