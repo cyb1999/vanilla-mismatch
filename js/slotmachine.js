@@ -127,26 +127,32 @@ const stopGame = () => {
         // 调用 stop 方法停止游戏
         myLucky.stop(group)
         synthetic_text.innerHTML = 'マッチするかな?'
-        setInterval(() => {
+        var timer = setInterval(() => {
             if (myLucky.step === 0) {
                 setTimeout(() => {
                     group.forEach((item) => {
                         if (item == 0) {
                             window.location.href = '/view/banana.html'
                             window.removeEventListener("click", stopGame, false);
+                            clearInterval(timer)
                         }
                         if (item == 2) {
                             window.location.href = '/view/chicken.html'
                             window.removeEventListener("click", stopGame, false);
+                            clearInterval(timer)
+
 
                         }
                         if (item == 4) {
                             window.location.href = '/view/pineapple.html'
                             window.removeEventListener("click", stopGame, false);
+                            clearInterval(timer)
+
                         }
                         if (item == 6) {
                             window.location.href = '/view/miso.html'
                             window.removeEventListener("click", stopGame, false);
+                            clearInterval(timer)
                         }
                     })
                 }, 1000)
