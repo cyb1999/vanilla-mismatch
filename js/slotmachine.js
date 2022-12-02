@@ -92,7 +92,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'yogurt',
                 width: '85%',
                 top: '15%',
-                src: "https://mismatch.bynay.cn/assets/Image/yogurt.png"
+                src: "/assets/Image/yogurt.png"
             }]
         },
 
@@ -131,24 +131,26 @@ const stopGame = () => {
             if (myLucky.step === 0) {
                 setTimeout(() => {
                     group.forEach((item) => {
+                        //香蕉组
                         if (item == 0) {
                             window.location.href = '/view/banana.html'
                             window.removeEventListener("click", stopGame, false);
                             clearInterval(timer)
                         }
+                        //鸡排组
                         if (item == 2) {
                             window.location.href = '/view/chicken.html'
                             window.removeEventListener("click", stopGame, false);
                             clearInterval(timer)
-
-
                         }
+                        //菠萝组
                         if (item == 4) {
                             window.location.href = '/view/pineapple.html'
                             window.removeEventListener("click", stopGame, false);
                             clearInterval(timer)
 
                         }
+                        //味增汤组
                         if (item == 6) {
                             window.location.href = '/view/miso.html'
                             window.removeEventListener("click", stopGame, false);
