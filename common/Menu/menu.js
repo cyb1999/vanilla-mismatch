@@ -31,3 +31,13 @@ const JumpMix = () => {
 const JumpAbout = () => {
     window.location.href = "about.html"
 }
+const JumpList = () => {
+    window.location.href = "reslist.html"
+}
+const JumpNews = () => {
+    window.location.href = "news.html"
+}
+const JumpMember = () => {
+    window.location.href = "member.html"
+
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: #EBEEF4;
+}
+#list{
+  padding: 5vw;
+  display:grid;
+  grid-template-columns: 42.5vw 42.5vw;
+  grid-gap: 5vw;
+	padding-top: 35vw;
+}
+
+#list img{
+  width:100%;
+}
+#listtop{
+	padding-top: 120px;
+}
