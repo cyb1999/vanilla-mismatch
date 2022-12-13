@@ -89,7 +89,6 @@
   .pos {
     padding: 2.38rem 0;
     filter: drop-shadow(0.63rem 1.25rem 0.47rem #00000029);
-    -webkit-filter: drop-shadow(0.63rem 1.25rem 0.47rem #00000029);
     background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330013145807860.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -97,7 +96,6 @@
   }
   .font_1 {
     font-size: 0.94rem;
-    font-family: DNPShueiMGoStd-B;
     line-height: 1.13rem;
     color: #6e6767;
   }
@@ -121,12 +119,12 @@
   }
   .pos_9 {
     position: absolute;
-    right: 10px;
+    right: 0;
     top: 0;
   }
   .pos_3 {
     position: absolute;
-    left: 10px;
+    left: 0;
     top: 0;
   }
   .group_4 {
