@@ -121,12 +121,12 @@
   }
   .pos_9 {
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 0;
   }
   .pos_3 {
     position: absolute;
-    left: 0;
+    left: 10px;
     top: 0;
   }
   .group_4 {
