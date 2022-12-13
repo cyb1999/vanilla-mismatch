@@ -13,6 +13,8 @@ body{
 
 #list img{
   width:100%;
+  border-radius:44%
+
 }
 #listtop{
 	padding-top: 120px;
