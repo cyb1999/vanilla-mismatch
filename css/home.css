@@ -146,7 +146,7 @@
     z-index: 1001;
     color: #ffffff;
     font-size: 40px;
-    font-family: Arial-Black;
+    font-family: "Arial-Black" !important;
     font-weight: 900;
     position: absolute;
     top:0;
