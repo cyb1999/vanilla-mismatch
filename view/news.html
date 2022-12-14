@@ -2,17 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>ミス研研究結果一覧</title>
+    <title>ミス研ニュース</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link href="../css/global.css" rel="stylesheet" media="all" />
-    <link href="../css/reslist.css" rel="stylesheet" media="all" />
-    <link href="../common/Menu/menu.css" rel="stylesheet" media="all" />
+    <meta name="format-detection" content="ミスマッチ研究会の部員募集とTwitterやInstagramへアクセスできるページです。" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/news.css" />
+    <link rel="stylesheet" href="/common/Menu/menu.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   </head>
 
   <body>
+    <!-- menu -->
     <div id="NavSwitch_Wrapper" class="mis-flex-col mis-items-center menu_image_wrapper" style="z-index: 9999">
-      <img onclick="Menu()" class="menu_image_nav" src="../assets/Image/hamburger.png" />
+      <img onclick="Menu()" class="menu_image_nav" src="/assets/Image/hamburger.png" />
     </div>
     <div id="NavSwitch_Header" class="menu_header">
       <div id="NavSwitch_Group" class="mis-flex-col mis-items-end menu_group menu_space-y-72">
@@ -38,21 +40,39 @@
         </div>
       </div>
     </div>
-    <div id="list">
-      <img class="banana" onclick="window.location.href='banana.html'" src="/assets/Image/img/list_bm.png" />
-      <img class="miso" onclick="window.location.href='miso.html'" src="/assets/Image/img/list_my.png" />
-      <img class="pineapple" onclick="window.location.href='pineapple.html'" src="/assets/Image/img/list_pu.png" />
-      <img class="chicken" onclick="window.location.href='chicken.html'" src="/assets/Image/img/list_ka.png" />
-      <img class="other1" src="/assets/Image/img/list_cs.png" />
-      <img class="other2" src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
+
+    <div id="main_1">
+      <img class="news_hizuke" src="/assets/Image/img/news_hizuke.png" />
     </div>
-    <script src="../common/Menu/menu.js"></script>
-    <script src="../js/animate/ResListAnimate.js"></script>
+
+    <div id="main_2">
+      <img src="/assets/Image/img/news_bosyu.png" />
+    </div>
+
+    <div id="twitter">
+      <img src="/assets/Image/img/news_twmoji.png" />
+      <div id="twkami">
+        <a class="twitter-timeline" href="https://twitter.com/eat_mis_match?ref_src=twsrc%5Etfw">Tweets by eat_mis_match</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div id="twmag">
+        <img src="/assets/Image/img/news_magnet.png" />
+      </div>
+    </div>
+
+    <div id="insta">
+      <img src="/assets/Image/img/news_instamoji.png" />
+
+      <div id="instakami">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-2b468fd1-d0da-4855-9979-971720dd89af"></div>
+      </div>
+
+      <div id="instamag">
+        <img src="/assets/Image/img/news_magnet.png" />
+      </div>
+    </div>
+    <script src="/common/Menu/menu.js"></script>
+    <script src="/js/animate/NewsAnimate.js"></script>
   </body>
 </html>

@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>ミス研研究結果一覧</title>
+    <title>ミス研のイカれたメンバーを紹介するぜ</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link href="../css/global.css" rel="stylesheet" media="all" />
-    <link href="../css/reslist.css" rel="stylesheet" media="all" />
-    <link href="../common/Menu/menu.css" rel="stylesheet" media="all" />
+    <link href="/css/global.css" rel="stylesheet" media="all" />
+    <link href="/common/Menu/menu.css" rel="stylesheet" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   </head>
 
   <body>
+    <!-- menu -->
     <div id="NavSwitch_Wrapper" class="mis-flex-col mis-items-center menu_image_wrapper" style="z-index: 9999">
       <img onclick="Menu()" class="menu_image_nav" src="../assets/Image/hamburger.png" />
     </div>
@@ -38,21 +38,11 @@
         </div>
       </div>
     </div>
-    <div id="list">
-      <img class="banana" onclick="window.location.href='banana.html'" src="/assets/Image/img/list_bm.png" />
-      <img class="miso" onclick="window.location.href='miso.html'" src="/assets/Image/img/list_my.png" />
-      <img class="pineapple" onclick="window.location.href='pineapple.html'" src="/assets/Image/img/list_pu.png" />
-      <img class="chicken" onclick="window.location.href='chicken.html'" src="/assets/Image/img/list_ka.png" />
-      <img class="other1" src="/assets/Image/img/list_cs.png" />
-      <img class="other2" src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
-      <img src="/assets/Image/img/list_cs.png" />
+
+    <div class="members_bg" id="main">
+      <img style="width: 100%" src="/assets/Image/img/members.png" alt="" />
     </div>
-    <script src="../common/Menu/menu.js"></script>
-    <script src="../js/animate/ResListAnimate.js"></script>
+    <script src="/common/Menu/menu.js"></script>
+    <script src="/js/animate/MemberAnimate.js"></script>
   </body>
 </html>

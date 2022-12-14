@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+*{box-sizing: border-box;
+}
+body{
+	fomt-size: 12px;
+	background-color: #EBEEF4;
+}
+#main_1 img{
+	width:100%;
+	margin: 0 auto;
+	padding-top: 40vw;
+	padding-bottom: 8px;
+}
+#main_2 img{
+	width:100%;
+	margin: 0 auto ;
+	margin-bottom: 20vw;
+}
+
+
+#twkami{
+	width: 100%;
+text-align: center;
+	background-size: 100%;
+	margin-bottom: 20vw;
+}
+.twitter-timeline{
+	z-index: 9999;
+}
+#instakami{
+	width: 100%;
+	margin: 0 auto ;
+	background-size: 100%;
+	margin-bottom: 20vw;
+}
+
+
+
+#twitter,
+#insta{
+	width: 296px;
+	margin: 0 auto ;
+}
+
+#twitter img{
+	width :100%;
+	margin-bottom: 40px;
+}
+
+#insta img{
+	width:100%;
+	margin-bottom: 40px;
+}
+
+#twmag img{
+	width: 100%;
+	margin: 0 auto ;
+}
+
+#instamag img{
+	width: 100%;
+	margin: 0 auto ;
+}
+
+#twmag{
+	position: absolute;
+	top:875px;
+	left:0px;
+	z-index: -1;
+}
+
+#instamag{
+	position: absolute;
+	top:2380px;
+	left:0px;
+}
