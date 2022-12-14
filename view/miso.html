@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/miso.css" />
     <link rel="stylesheet" href="../common/Menu/menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   </head>
   <body>
     <div id="NavSwitch_Wrapper" class="mis-flex-col mis-items-center menu_image_wrapper" style="z-index: 9999">
@@ -40,21 +41,21 @@
     <div class="mis-flex-col mis-relative page">
       <div class="mis-flex-col mis-justify-start">
         <div class="mis-flex-col group space-y-4">
-          <div class="mis-flex-col mis-items-start space-y-25">
+          <div id="video_ctr" class="mis-flex-col mis-items-start space-y-25">
             <div class="video">
               <video class="miso_vidio" src="/assets/resultList/miso/miso.mp4" x5-video-player-type="h5" x5-video-player-fullscreen="true" playsinline="true" webkit-playsinline="true" x-webkit-airplay="true" poster="/assets/resultList/miso/miso.png" controls></video>
               <img class="image" src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330015996066094.png" />
             </div>
             <img class="image_2" src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330015941457191.png" />
           </div>
-          <span class="mis-self-start text">タベタイイネ！</span>
+          <span id="hearts_text" class="mis-self-start text">タベタイイネ！</span>
         </div>
       </div>
-      <div class="percentage">
-        <img class="image_3" src="/assets/resultList/miso/miso_pre.png" />
+      <div id="per" class="percentage">
+        <img class="image_3" src="/assets/resultList/miso/miso_per.png" />
       </div>
-      <div class="mis-flex-col mis-relative group_2 space-y-30">
-        <div class="mis-flex-col mis-justify-start mis-items-start mis-relative group_3">
+      <div id="dialog_ctr" class="mis-flex-col mis-relative group_2 space-y-30">
+        <div id="dialog_1" class="mis-flex-col mis-justify-start mis-items-start mis-relative group_3">
           <img class="image_4" src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330479445280186.png" />
           <div class="mis-flex-col mis-items-center pos space-y-8 pos_9">
             <span class="font_1">味噌汁のしょっぱさや、</span>
@@ -62,7 +63,7 @@
             <span class="font_1">全てがミスマッチで全く美味しくない…</span>
           </div>
         </div>
-        <div class="mis-flex-col mis-justify-start mis-items-end mis-relative group_3">
+        <div id="dialog_2" class="mis-flex-col mis-justify-start mis-items-end mis-relative group_3">
           <img class="image_5" src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330479465612249.png" />
           <div class="mis-flex-col mis-items-start pos_2 space-y-8 pos_3">
             <span class="font_1">吐瀉物のような味がします。</span>
@@ -71,14 +72,15 @@
         </div>
       </div>
       <div class="mis-flex-col mis-relative group_4 space-y-56">
-        <div class="mis-flex-col mis-justify-start mis-items-center button" onclick="window.location.href = 'slotmachine.html'">
+        <div id="bottom_btn1" class="mis-flex-col mis-justify-start mis-items-center button" onclick="window.location.href = 'slotmachine.html'">
           <span class="font_2 text_2">もう一度合成</span>
         </div>
-        <div class="mis-flex-col mis-justify-start mis-items-center button" onclick="window.location.href = 'reslist.html'">
+        <div id="bottom_btn2" class="mis-flex-col mis-justify-start mis-items-center button" onclick="window.location.href = 'reslist.html'">
           <span class="font_2 text_3">実験一覧</span>
         </div>
       </div>
     </div>
     <script type="text/javascript" src="../common/Menu/menu.js"></script>
+    <script src="../js/animate/FoodDetailsAnimate.js"></script>
   </body>
 </html>

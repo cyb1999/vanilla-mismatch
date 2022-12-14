@@ -1,6 +1,6 @@
 .font_1 {
     font-size: 1.25rem;
-    font-family: DNPShueiMGoStd-L;
+    font-family:"A-OTF-ShueiMGoStd-L-2" !important;
     line-height: 1.5rem;
     color: #6e6767;
   }
@@ -59,7 +59,7 @@
     align-self: center;
     color: #fd9160;
     font-size: 1.56rem;
-    font-family: Arial-Black;
+    font-family: Arial-Black !important;
     font-weight: 900;
     line-height: 1.19rem;
   }
@@ -98,18 +98,17 @@
   /* top2 module*/
   .top2_font_2 {
     font-size: 1.25rem;
-    font-family: DNPShueiMGoStd-L;
     line-height: 1.5rem;
     color: #707070;
   }
   .top2_font_1 {
     font-size: 1.56rem;
-    font-family: DNPShueiMGoStd-B;
     color: #707070;
   }
   .top2_text_3 {
     align-self: center;
     text-transform: uppercase;
+    font-family: "A-OTF-ShueiMGoStd-L-2" !important;
   }
   .top2_image_2 {
     width: 1.25rem;

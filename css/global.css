@@ -12,19 +12,28 @@ body {
   background-color: #eceef4;
   padding: 0;
 }
+@font-face {
+  font-family: 'A-OTF-ShueiMGoStd-B-2';
+  src: url('/assets/font/A-OTF-ShueiMGoStd-B-2.otf')
+}
+@font-face {
+  font-family: 'A-OTF-ShueiMGoStd-L-2';
+  src: url('/assets/font/A-OTF-ShueiMGoStd-L-2.otf')
+}
+@font-face {
+  font-family: 'Arial-Black';
+  src: url('/assets/font/Arial-Black.ttf')
+}
 span,a,h1,h2,h3,h4,h5,h6 {
   font-family: 'A-OTF-ShueiMGoStd-B-2' !important;
-
 }
+
 
 body * {
   box-sizing: border-box;
   flex-shrink: 0;
 }
-@font-face {
-  font-family: 'A-OTF-ShueiMGoStd-B-2';
-  src: url('/assets/font/A-OTF-ShueiMGoStd-B-2.otf')
-}
+
 .mis-flex-row {
   display: flex;
   flex-direction: row;

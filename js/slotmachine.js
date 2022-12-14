@@ -130,8 +130,10 @@ const stopGame = () => {
         var timer = setInterval(() => {
             if (myLucky.step === 0) {
                 setTimeout(() => {
+                    let bottom_ctr = document.getElementById('bottom_ctr')
                     let videostyle = document.getElementById('loading_ctr')
                     videostyle.style.display = 'flex'
+                    bottom_ctr.style.display = 'none'
                     clearInterval(timer)
                     setTimeout(() => {
                         group.forEach((item) => {
@@ -161,8 +163,8 @@ const stopGame = () => {
                                 clearInterval(timer)
                             }
                         })
-                    }, 2500)
-                }, 1000)
+                    }, 2000)
+                }, 1500)
 
             }
         }, 1000)
