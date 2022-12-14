@@ -1,4 +1,3 @@
-
 const menu_image_wrapper = document.querySelector('.menu_image_wrapper')
 menu_image_wrapper.classList.add('animate__animated', 'animate__fadeInRight');
 //Menu开关事件

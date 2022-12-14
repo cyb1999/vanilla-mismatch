@@ -33,3 +33,10 @@ window.addEventListener('scroll', function () {
         bottom_btn2.classList.add('animate__animated', 'animate__fadeInUp');
     }
 }, true);
+
+
+
+const SwitchIcon = () => {
+    const hearts = document.getElementById('hearts')
+    hearts.setAttribute("src", "/assets/Image/heart_active.png");
+}

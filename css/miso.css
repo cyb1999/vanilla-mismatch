@@ -153,3 +153,29 @@ justify-content: center;
 .text_3 {
   color: #81a1f5;
 }
+.hearts_ctr{
+  display:flex;
+  align-items: center;
+  position: relative;
+  background-color: #e6e8ee;
+box-shadow: -0.63rem -0.63rem 0.94rem #ffffff80, 0.63rem 0.63rem 0.94rem #0000001a;
+border-radius: 50%;
+width: 3.51rem;
+height: 3.51rem;
+}
+.hearts{
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  left: 0;
+}
+.hearts_icon{
+  position: absolute;
+  left: calc(50% - 0.9rem);
+  width: 30px;
+}
+.hearts_icon_active{
+  position: absolute;
+  left: calc(50% - 0.9rem);
+  width: 30px;
+}
