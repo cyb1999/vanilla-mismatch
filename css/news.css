@@ -65,13 +65,13 @@ text-align: center;
 
 #twmag{
 	position: absolute;
-	top:875px;
-	left:0px;
-	z-index: -1;
+	top:840px;
+	left:-20px;
+	z-index: 1;
 }
 
 #instamag{
 	position: absolute;
-	top:2380px;
+	top:2347px;
 	left:0px;
 }
