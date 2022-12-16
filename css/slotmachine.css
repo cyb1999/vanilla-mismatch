@@ -37,7 +37,7 @@
     bottom: 0;
   }
   .loading_video{
-    background-color: #EEF0F6;
+    background-color:#EAEBF3;
     display: none;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,11 @@
     height: 110vh;
     z-index: 99999;
   }
+
+.loading_img{
+  width: 100%;
+  border-radius:20px;
+}
   .bottom_container{
     display: flex;
     justify-content: center;
