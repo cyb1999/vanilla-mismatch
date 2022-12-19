@@ -26,6 +26,7 @@
   width:370px;
   position: absolute;
   border-radius:1.88rem;
+  
   }
   .percentage{
       width: 100%;
@@ -59,7 +60,7 @@
   }
   .equal-division-item {
     filter: drop-shadow(-0.63rem -0.63rem 0.47rem #ffffff80);
-    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330013156517389.png');
+    background-image: url('/assets/Image/css_common1.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 10.56rem;
@@ -89,7 +90,7 @@
   .pos {
     padding: 1rem 0;
     filter: drop-shadow(0.63rem 1.25rem 0.47rem #00000029);
-    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330013145807860.png');
+    background-image: url('/assets/Image/css_common2.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 19.88rem;
@@ -111,7 +112,7 @@
       
     padding: 1.63rem 3.13rem;
     filter: drop-shadow(0.63rem 1.25rem 0.47rem #00000029);
-    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16709330013133774820.png');
+    background-image: url('/assets/Image/css_common3.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }

@@ -6,7 +6,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
     height: '170px',
     blocks: [{
         imgs: [{
-            src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/a52c9cc28c429420c2df64197ed7e06b.png",
+            src: "/assets/Image/slot_1.png",
             width: '100%',
             height: '100%'
         }]
@@ -26,7 +26,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'banana',
                 width: '100%',
                 top: '20%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/9ef1805e19139b822bec214abbff5be9.png"
+                src: "/assets/Image/slot_banana.png"
             }]
         },
         {
@@ -35,7 +35,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'sauce',
                 width: '100%',
                 top: '10%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/9ed0330f40714a42a81a1bbc1a2a1a1f.png"
+                src: "/assets/Image/slot_sauce.png"
             }]
         },
         {
@@ -43,7 +43,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
             imgs: [{
                 tips: 'chicken',
                 width: '90%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/8179277b95dff8ff8a41931054e0aeac.png"
+                src: "/assets/Image/slot_chicken.png"
 
             }]
         },
@@ -53,7 +53,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'ice cream',
                 width: '100%',
                 top: '10%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/d146a2e27d3ef2360f355854b4dbbbf2.png"
+                src: "/assets/Image/slot_icecream.png"
 
 
             }]
@@ -64,7 +64,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'pineapple',
                 width: '100%',
                 top: '10%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/a0b7d7c3663c69548cb4653284b1dc55.png"
+                src: "/assets/Image/slot_pineapple.png"
             }]
         },
         {
@@ -73,7 +73,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'prunes',
                 width: '100%',
                 top: '10%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/1b30a030d3d9289d6a93e9d1fd83e2f0.png"
+                src: "/assets/Image/slot_prunes.png"
 
             }]
         },
@@ -83,7 +83,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'miso',
                 width: '100%',
                 top: '20%',
-                src: "https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/c889f68062c6aee24c21421cf0c0ed3d.png"
+                src: "/assets/Image/slot_miso.png"
             }]
         },
         {
@@ -92,7 +92,7 @@ const myLucky = new LuckyCanvas.SlotMachine({
                 tips: 'yogurt',
                 width: '85%',
                 top: '15%',
-                src: "/assets/Image/yogurt.png"
+                src: "/assets/Image/slot_yogurt.png"
             }]
         },
 

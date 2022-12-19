@@ -192,7 +192,7 @@
   }
   .top2_image-wrapper {
     padding: 4.31rem 0 2.06rem;
-    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/16692958967750770967.png');
+    background-image: url('/assets/Image/pin.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 10.13rem;
@@ -217,7 +217,7 @@
   }
   .top2_image-wrapper_2 {
     padding: 3.75rem 0 1.88rem;
-    background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63324b315a7e3f0310665513/6373beb18d7d66001180ae52/58cc845a7e2cd8fe7c6586c98f05fae6.png');
+    background-image: url('/assets/Image/miso_ice.png');
     background-position: 100% 0%;
     background-size: 104.5% 100%;
     background-repeat: no-repeat;
